@@ -1,0 +1,51 @@
+.filters-group-container {
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    max-width: 350px;
+    margin-top: 48px;
+    flex-shrink: 0;
+  }
+}
+
+/* Write your CSS here */
+.unorder-filter-list {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.catagory-button {
+  background-color: transparent;
+  border: none;
+  height: 30px;
+  margin-bottom: 15px;
+  font-size: 20px;
+  color: #64748b;
+  font-family: roboto;
+}
+.rating-style {
+  width: 50%;
+  margin-right: 10px;
+}
+.rating-button {
+  text-align: left;
+  background-color: transparent;
+  border: none;
+  height: 30px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+.clear-button {
+  border: #0967d2 solid 2px;
+  background-color: transparent;
+  color: #0967d2;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
